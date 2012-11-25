@@ -5,6 +5,7 @@
 body {
   background-color : #f6e9e8;
   font-family : futura, sans-serif;
+  text-transform : uppercase;
 }
 
 .main {
@@ -95,10 +96,22 @@ body {
 
 
 
+/*
+            Elizabeth,
+    1) Place whatever image you want into /Users/elizabethstilwell/Code/elizabethstilwell/images
+    2) Then, change the "replace-me" part of the background style below to be the name of the image.
+ */
+
 
 .background-image-container {
-  background-color : #999;
+  background : transparent url(/images/replace-me.png) no-repeat top middle;
+  height : 1000px;
 }
+
+
+
+
+
 
 .dots {
   margin : 0 auto;
