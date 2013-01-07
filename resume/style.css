@@ -1,0 +1,101 @@
+body  {
+	font-family: Raleway, Arial, sans-serif;
+	letter-spacing: 0.1em;
+	line-height: 1.4em;
+}
+
+h1     {
+	font-family: Raleway, Arial, sans-serif;
+	font-size: 40px;
+	padding: 30px 0 49px 40px;
+	margin: 0;
+	color: lightpink;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
+}
+
+p {
+	margin: 0;
+}
+
+.contact-info  {
+	list-style: none;
+	padding: 30px 0 49px 40px;
+	margin: 0;
+}
+
+.contact-info .contact {
+	display: inline;
+}
+
+.contact-info .contact:after {
+	color: #ccc;
+	content: " |";
+}
+
+.contact-info .contact:nth-last-child(1):after {
+    content: "";
+}
+
+.contact a {
+	color: #A56C43;
+	text-decoration: none;
+}
+.contact a:visited {
+	color: deeppink;
+}
+
+.header {
+	padding: 10px;
+}
+
+.subheading	   {
+	font-size: 20px;
+	color: lightpink;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
+}
+
+datetime  {
+	color: rgb(134, 136, 138);
+}
+
+.title {
+	color: lightpink;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
+}
+
+
+.position {
+	color: rgb(25, 23, 27);
+}
+
+.description  {
+	color: rgb(88, 88, 90);
+}
+
+.container  {
+	min-width: 768px;
+	width: 100%;
+}
+
+.sidebar  {
+	float: left;
+	width: 35%;
+}
+
+.main  {
+	float: right;
+	width: 65%;
+}
+
+
+
+.sidebar .item,
+.sidebar .subheading,
+.main .item {
+	padding: 0 40px;
+}
+
+.sidebar .item,
+.main .item {
+	margin-bottom: 25px;
+}
