@@ -17,6 +17,10 @@ p {
 	margin: 0;
 }
 
+.print {
+	display: none;
+}
+
 .second-position  {
 	margin-top: 10px;
 }

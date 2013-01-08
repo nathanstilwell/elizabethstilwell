@@ -1,0 +1,59 @@
+body {
+  background-color: white;
+  font-size: 10pt;
+}
+
+.title {
+  font-size: 18pt;
+  padding: 0;
+}
+
+.subheading {
+  font-size: 12pt;
+}
+
+.sidebar {
+  font-size: 8pt;
+  margin-right: 2%;
+  width: 30%;
+}
+
+.main {
+  width: 68%;
+}
+
+.contact-info {
+  padding: 0;
+  margin: 18pt 0;
+}
+
+.contact-info .contact {
+  display: block;
+}
+
+.contact-info .contact:after {
+  content: "";
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar .item,
+.sidebar .subheading,
+.main .item {
+  padding: 0;
+}
+
+.main .item {
+  margin-bottom: 10pt;
+}
+
+.print {
+  display: block;
+}
+
+.no-print {
+  display: none;
+}
