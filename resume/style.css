@@ -17,6 +17,9 @@ p {
 	margin: 0;
 }
 
+.second-position  {
+	margin-top: 10px;
+}
 .contact-info  {
 	list-style: none;
 	padding: 30px 0 49px 40px;
