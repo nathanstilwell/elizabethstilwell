@@ -8,6 +8,12 @@ body {
   padding: 0;
 }
 
+.title,
+.subheading {
+  color: black;
+  text-shadow: none;
+}
+
 .subheading {
   font-size: 12pt;
 }
